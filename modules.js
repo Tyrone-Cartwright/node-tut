@@ -1,0 +1,10 @@
+// CommonJS, every file is module (by default)
+// Modules - Encapsulated Code (only share minimum - what we want to share )
+const names = require("./namesMod")
+const sayHi = require("./utilsMod")
+const data = require('./alternative-syn-export')
+require('./mind-grenade')
+
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
