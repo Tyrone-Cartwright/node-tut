@@ -1,16 +1,18 @@
 {
-  "name": "mynodetut",
+  "name": "express-tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "Tyrone C",
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
